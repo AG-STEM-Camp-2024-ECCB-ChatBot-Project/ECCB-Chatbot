@@ -3,6 +3,7 @@
 1. Use Chatgpt to generate a `JSON` with up to **100** `sample medical/disaster preparedness data` based on the questions you made yesterday.
 2. Save that data to a file called `sample_data.json`.
 3. Using the code below and `Visual Studio Code` or [Google Colab](https://colab.research.google.com/) write a simple Chatbot that utilizes that information.
+
 **NB: THE CODE BELOW WILL NOT WORK AND NEEDS TO BE ADJUSTED TO WORK FOR YOU.**
 
 ## The code to use:
