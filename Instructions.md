@@ -1,7 +1,7 @@
 # Today's Instructions
 **NB: Use [Chatgpt](https://chatgpt.com/) for generating the data only.**
-1. Use Chatgpt to generate a `csv` with up to **100** `sample medical/disaster preparedness data` based on the questions you made yesterday.
-2. Save that data to a file called `sample_data.csv`.
+1. Use Chatgpt to generate a `JSON` with up to **100** `sample medical/disaster preparedness data` based on the questions you made yesterday.
+2. Save that data to a file called `sample_data.json`.
 3. Using the code below and `Visual Studio Code` or [Google Colab](https://colab.research.google.com/) write a simple Chatbot that utilizes that information.
 
 ## The code to use:
@@ -11,7 +11,7 @@ import pandas as pd
 import random
 
 # Load JSON Data
-with open ('location/of/data.csv') as file:
+with open ('location/of/data.json') as file:
     data = json.load(file)
     
 # Create a DataFrame
